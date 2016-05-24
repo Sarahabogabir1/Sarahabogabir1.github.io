@@ -1,0 +1,9 @@
+@font-face {
+   font-family:"autograph";
+   src: url("../fonts/autograph.ttf") format("truetype");
+}
+
+.caligraphy {
+	font-family:"autograph";
+	font-size: 100px;
+}
