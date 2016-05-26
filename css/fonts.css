@@ -3,15 +3,25 @@
    src: url("../fonts/NothingYouCouldDoBold.ttf") format("truetype");
 }
 
-.caligraphy {
+.caligraphy_1 {
 	font-family:"cursive";
-	font-size: 80px;
+	font-size: 70px;
+  padding-top: 50px;
+}
+
+.caligraphy_2 {
+  font-family:"cursive";
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: center;
 }
 
 .fa-2x {
     font-size: 2em;
     padding-left: 18px;
 }
+
 
 /*effect for when page loads*/
 
