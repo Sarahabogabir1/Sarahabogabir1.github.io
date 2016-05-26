@@ -49,6 +49,13 @@ html {
     padding-top: 10px; 
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
 h2 {
     font-family: "Raleway", Helvetica,Arial, sans-serif;
     font-size: 20px;
