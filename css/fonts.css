@@ -17,6 +17,14 @@
   position: center;
 }
 
+.caligraphy_3 {
+  font-family:"cursive";
+  font-size: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: center;
+}
+
 .fa-2x {
     font-size: 2em;
     padding-left: 18px;

@@ -23,6 +23,10 @@ html {
     background-color: #004080
 }
 
+.color_3{
+    background-color: #006bb3
+}
+
 .kayak-pic {
     vertical-align: middle;
     padding-top: 30px;
@@ -54,12 +58,13 @@ html {
     max-width: 100%;
     height: auto;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 h2 {
     font-family: "Raleway", Helvetica,Arial, sans-serif;
     font-size: 20px;
-    line-height: 42px;
+    line-height: 50px;
     letter-spacing: 0.5px;
     text-transform: none;
     max-width: 100%;
