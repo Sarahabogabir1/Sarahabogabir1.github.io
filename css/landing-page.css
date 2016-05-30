@@ -15,16 +15,23 @@ html {
 }
 
 .color_1 {
-    background-color: #003366
+    background-color: #778899
 
 }
 
 .color_2 {
-    background-color: #004080
+    background-color: #000000
 }
 
 .color_3{
-    background-color: #006bb3
+    background-color: #000000
+}
+
+.color_4{
+    background-color: #FFFFFF
+}
+.color_5{
+    background-color: #778899
 }
 
 .kayak-pic {
@@ -81,7 +88,7 @@ h3 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 15px; 
 }
 
 .lead {
@@ -91,10 +98,11 @@ h3 {
 
 .intro-header {
     text-align: center;
-    color: #f8f8f8;
-    background: url(../img/blue.jpg) no-repeat center center;
+    /*color: #f8f8f8;*/
+    /*background: url(../img/blue.jpg) no-repeat center center;*/
     background-size: cover;
     position: relative;
+    background-color: #000000
 }
 
 .intro-message {
@@ -159,7 +167,7 @@ h3 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+/*    background-color: #f8f8f8;*/
 }
 
 .content-section-b {
@@ -175,14 +183,15 @@ h3 {
 .section-heading-spacer {
     float: left;
     width: 200px;
-    border-top: 3px solid #e7e7e7;
+    border-top: 3px 
 }
 
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner.jpg) no-repeat center center;
+    /*background: url(../img/banner.jpg) no-repeat center center;*/
     background-size: cover;
+    background-color: 
 }
 
 #color-overlay {
