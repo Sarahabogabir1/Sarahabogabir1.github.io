@@ -293,17 +293,17 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 180px;
     }
 
     .download-section {
         padding: 100px 0;
     }
 
-    #map {
+/*    #map {
         height: 400px;
-        margin-top: 250px;
-    }
+        margin-top: 0px;
+    }*/
 }
 
 .btn {
@@ -383,3 +383,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
