@@ -401,92 +401,104 @@ body {
 
 
 /*new css*/
+img {
+  max-width: 100%;
+}
+
 .timeline {
-  margin: 4em auto;
-  position: relative;
-  /*max-width: 46em;*/
-
-  &:before {
-    /*background-color: $color-1;*/
-    content: '';
-    margin-left: -1px;
-    position: absolute;
-    top: 0;
-    left: 2em;
-    width: 2px;
-    height: 100%;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  h2.break {
+    display: block;
+    width: 100%;
+    font-family: arial;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 25px 0 25px 25px;
+    position: relative;
+    left: -5px;
   }
-}
-
-.timeline-event {
-  position: relative;
-
-  &:hover {
-
-    .timeline-event-icon {
-      /*@include rotate (-45deg);*/
-      background-color: #f2f2f2;
+  ul {
+    color: $color;
+    list-style-type: none;
+    position: relative;
+    padding: 25px 0 25px 10px;
+    font-size: 18px;
+    margin: 0;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -4.5px;
+      bottom: 0;
+      border-left: 1px solid #ccc;
+      height: 100%;
     }
-
-    .timeline-event-thumbnail {
-      /*@include box-shadow(inset 40em 0 0 0 $color-3);*/
+    li {
+      margin: 15px 0 35px 10px;
+      position: relative;
+      display: block;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+      .card {
+        display: block;
+        border: 1px solid #ccc;
+        padding: 15px;
+        background: #f1f1f1;
+      }
+      h1 {
+        font-family: georgia;
+        color: $color;
+        margin: 0 0 15px 0;
+      }
+      p {
+        color: rgba($color, 0.5);
+        font-family: arial;
+        margin: 0 0 15px 0;
+      }
+      .eyebrow {
+        display: table;
+        color: white;
+        background-color: $color;
+        font-size: 9px;
+        padding: 4px 7px;
+        font-family: arial;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+        position: relative;
+        top: 3.5px;
+        outline: 2px solid white;
+        z-index: 0;
+        max-width: 300px;
+        line-height: 1.2;
+        &:before {
+          content: "";
+          position: absolute;
+          left: -20px;
+          border-bottom: 1px solid #ccc;
+          width: 20px;
+          top: 9px;
+          z-index: -1;
+        }
+      }
+      &:before {
+        content: "";
+        display: block;
+        width: $size;
+        height: $size;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid rgba($color, 0.5);
+        position: absolute;
+        z-index: 2;
+        left: -30px;
+        outline: 2px solid white;
+        top: 7.5px;
+      }
     }
   }
-}
-
-.timeline-event-copy {
-  padding: 2em;
-  position: relative;
-  top: -1.875em;
-  left: 4em;
-  width: 80%;
-
-  h3 {
-    font-size: 1.75em;
-  }
-
-  h4 {
-    font-size: 1.2em;
-    margin-bottom: 1.2em;
-  }
-
-  strong {
-    font-weight: 700;
-  }
-
-  p:not(.timeline-event-thumbnail) {
-    padding-bottom: 1.2em;
-  }
-}
-
-.timeline-event-icon {
-  /*@include transition(transform 0.2s ease-in);
-  @include rotate (45deg);*/
-
-  background-color: $color-1;
-  outline: 10px solid #f2f2f2;
-  display: block;
-  margin: 0.5em 0.5em 0.5em -0.5em;
-  position: absolute;
-  top: 0;
-  left: 2em;
-  width: 1em;
-  height: 1em;
-}
-
-.timeline-event-thumbnail {
-  /*@include transition(box-shadow 0.5s ease-in 0.1s);*/
-  color: #f2f2f2;
-  font-size: 16px;
-
-  background-color: #f2f2f2;
-  /*@include box-shadow(inset 0 0 0 0em #ef795a);*/
-  display: inline-block;
-  margin-bottom: 1.2em;
-  padding: 0.25em 1em 0.2em 1em;
-
-}
-
-.timeline-event-thumbnail > p {
-  text-align: left;
 }
