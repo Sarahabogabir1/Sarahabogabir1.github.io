@@ -159,6 +159,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    background: -webkit-linear-gradient(top,rgba(15, 15, 15, 0.68),rgba(11, 8, 12, 0.71));
 }
 
 .intro .intro-body .brand-heading {
