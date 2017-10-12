@@ -403,14 +403,15 @@ body {
 
 
 /*new css*/
-html, body {
-    margin-left: 70px;
-}
 
 .timeline {
     flex: 1 1 50%;
     min-width: 300px;
     display: flex;
+}
+
+.padding-timeline {
+  margin-left: 50px;
 }
 
 .steps {
