@@ -44,7 +44,7 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
 }
@@ -170,7 +170,7 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 @media(min-width:768px) {
@@ -481,7 +481,7 @@ body {
 .timeline-event-thumbnail {
   /*@include transition(box-shadow 0.5s ease-in 0.1s);*/
   color: #f2f2f2;
-  font-size: 0.75em;
+  font-size: 16px;
 
   background-color: #f2f2f2;
   /*@include box-shadow(inset 0 0 0 0em #ef795a);*/
