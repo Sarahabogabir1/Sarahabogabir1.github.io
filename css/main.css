@@ -1327,8 +1327,8 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
-#me-talking {
-	background: #151515 url(../images/me_talking.jpg) no-repeat center;
+#my-hands {
+	background: #151515 url(../images/my_hands.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
