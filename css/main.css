@@ -2532,11 +2532,12 @@ header .logo a {
  *
  * -------------------------------------------------------------------
  */
-footer {
-	padding-bottom: 3rem;
+ footer {
+	padding: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-}
+	background-color: rgba(90, 90, 90, 0.14);
+ }
 footer a, footer a:visited {
 	color: #FFFFFF;
 }
