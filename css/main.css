@@ -742,6 +742,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
+button, .contact-custom {
+	margin-left: 2rem !important;
+	background: #1f1f1f !important;
+	border: 3px solid #cc005f !important;
+	line-height: 4.8rem;
+	color: white !important;
+}
 
 
 /**
