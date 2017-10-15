@@ -50,6 +50,7 @@
 					<ul class="main-navigation">
 						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+            <li><a class="smoothscroll"  href="#skills" title="">Skills</a></li>
 						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
 						<!-- <li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li> -->
 						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>
@@ -104,7 +105,7 @@
    		<div class="col-twelve">
 
    			<h5>About</h5>
-   			<h1>Let me introduce myself.</h1>
+   			<h2>Let me introduce myself.</h2>
 
    			<div class="intro-info">
 
@@ -120,8 +121,8 @@
 
    		<div class="col-six tab-full">
 
-   			<h3>Profile</h3>
-   			<p>Below is some information about myself:</p>
+   			<!-- <h3>Profile</h3>
+   			<p>Below is some information about myself:</p> -->
 
    			<ul class="info-list">
    				<li>
@@ -132,6 +133,17 @@
    					<strong>Born in:</strong>
    					<span>Santiago, Chile</span>
    				</li>
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+
+      <div class="col-six tab-full">
+
+   			<!-- <h3>Profile</h3>
+   			<p>Below is some information about myself:</p> -->
+
+   			<ul class="info-list">
    				<li>
    					<strong>Job:</strong>
    					<span>Developer | RTS Labs </span>
@@ -149,60 +161,6 @@
 
    		</div>
 
-   		<div class="col-six tab-full">
-
-   			<h3>Skills</h3>
-   			<p>Here is a list of my current skills. I'm always learning something new, and keeping up with the latest trends</p>
-
-        <ul>
-          <li> Github/Git </li>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> Bootstrap </li>
-          <li> Javascript </li>
-          <li> HAML </li>
-          <li> Wordpress </li>
-          <li> Ruby on Rails </li>
-          <li> Heroku </li>
-          <li> Sketch </li>
-        </ul>
-
-				<!-- <ul class="skill-bars">
-				   <li>
-				   	<div class="progress percent90"><span>90%</span></div>
-				   	<strong>HTML5</strong>
-				   </li>
-
-				   <li>
-				   	<div class="progress percent85"><span>85%</span></div>
-				   	<strong>CSS3</strong>
-				   </li>
-
-				   <li>
-				   	<div class="progress percent70"><span>70%</span></div>
-				   	<strong>Javascript</strong>
-				   </li>
-
-           <li>
-           <div class="progress percent70"><span>90%</span></div>
-           <strong>Bootstrap</strong>
-          </li>
-
-				   <li>
-				   	<div class="progress percent95"><span>80%</span></div>
-				   	<strong>HAML</strong>
-				   </li>
-
-				   <li>
-				   	<div class="progress percent75"><span>50%</span></div>
-				   	<strong>Wordpress</strong>
-				   </li>
-
-				</ul>  -->
-        <!-- /skill-bars -->
-
-   		</div>
-
    	</div>
 
    	<div class="row button-section">
@@ -215,15 +173,80 @@
    </section> <!-- /process-->
 
 
-   <!-- resume Section
-   ================================================== -->
+   <!-- SKILLS SECTION ========-->
+  <section id="skills" class="dark-grey-section">
+
+    <div class="row section-intro">
+   		<div class="col-twelve">
+        <h5>Skills</h5>
+        <h2> My currated list </h2>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="row about-content font-custom align-center">
+
+      		<div class="col-three">
+            <span class="icon skills-icon"><i class="fa fa-cogs"></i></span>
+            <h4> Frameworks </h4>
+           <ul>
+             <li> Wordpress </li>
+             <li> Ruby on Rails </li>
+             <li> Bootstrap </li>
+           </ul>
+      		</div>
+
+          <div class="col-three">
+            <span class="icon skills-icon"><i class="fa fa-book"></i></span>
+            <h4> Languages </h4>
+              <ul>
+                <li> HTML </li>
+                <li> HAML </li>
+                <li> CSS/SASS </li>
+                <li> Javascript </li>
+                <li> Ruby </li>
+              </ul>
+            </h3>
+          </div>
+
+          <div class="col-three">
+            <span class="icon skills-icon"><i class="fa fa-paint-brush"></i></span>
+            <h4> Design </h4>
+              <ul>
+                <li> Sketch </li>
+                <li> InDesign </li>
+                <li> Photoshop</li>
+              </ul>
+            </h3>
+          </div>
+
+        <div class="col-three">
+          <span class="icon skills-icon"><i class="fa fa-wrench"></i></span>
+          <h4> Tools </h4>
+            <ul>
+              <li> Github + Git </li>
+              <li> Chrome DevTools </li>
+              <li> Command Line </li>
+              <li> Heroku </li>
+            </ul>
+          </h3>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+   <!-- resume Section ================================================== -->
 	<section id="resume" class="grey-section">
 
 		<div class="row section-intro">
    		<div class="col-twelve">
 
    			<h5>Resume</h5>
-   			<h1>More on my credentials.</h1>
+   			<h2>More on my credentials.</h2>
 
    			<p class="lead">Professional who enjoys learning new technologies, working in a team environment and creating functional, aesthetically beautiful web applications. Excellent interpersonal and bilingual communication skills with a passion for helping others. Tenacious problem solver, strong work ethic, and determined to exceed expectations. </p>
 
@@ -245,7 +268,7 @@
    				<div class="timeline-block">
 
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
+	   					<i class="fa fa-briefcase"></i>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -269,7 +292,7 @@
 	   			<div class="timeline-block">
 
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
+	   					<i class="fa fa-briefcase"></i>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -290,7 +313,7 @@
 	   			<div class="timeline-block">
 
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-graduation-cap"></i>
+	   					<i class="fa fa-briefcase"></i>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -330,7 +353,7 @@
    				<div class="timeline-block">
 
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
+	   					<i class="fa fa-graduation-cap"></i>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -351,7 +374,7 @@
 	   			<div class="timeline-block">
 
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
+	   					<i class="fa fa-graduation-cap"></i>
 	   				</div>
 
 	   				<div class="timeline-header">
@@ -383,7 +406,7 @@
    		<div class="col-twelve">
 
    			<h5>Services</h5>
-   			<h1>What Can I Do For You?</h1>
+   			<h2>What Can I Do For You?</h2>
 
    			<!-- <p class="lead">Some of my specialties</p> -->
 

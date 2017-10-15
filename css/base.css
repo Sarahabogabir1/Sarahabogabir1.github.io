@@ -380,6 +380,10 @@ textarea {
 	appearance: none;
 }
 
+.font-custom h3, li {
+	color: #f2f2f2 !important;
+}
+
 /**
  * ===================================================================
  * 03. grid - (_grid.scss)

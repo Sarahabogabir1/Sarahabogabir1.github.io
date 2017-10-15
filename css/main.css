@@ -148,6 +148,15 @@ h6, .h06 {
 	text-transform: uppercase;
 	letter-spacing: .15rem;
 }
+#skills h2 {
+	color: #f2f2f2;
+}
+#skills  h4 {
+	color: #ff0077;
+}
+#services h2 {
+	color: #f2f2f2;
+}
 p img {
 	margin: 0;
 }
@@ -276,9 +285,9 @@ ol {
 ul {
 	list-style: disc;
 }
-li {
+/*li {
 	display: list-item;
-}
+}*/
 ol, ul {
 	margin-left: 1.7rem;
 }
@@ -1031,6 +1040,12 @@ button, .contact-custom {
 .grey-section p.lead {
 	color: #7d7d7d;
 }
+.dark-section {
+	background: #1b1b1b
+}
+.row.align-center {
+	text-align: center;
+}
 .section-intro {
 	max-width: 700px;
 	margin-left: auto;
@@ -1515,6 +1530,10 @@ header .logo a {
 }
 #about .section-intro {
 	margin-bottom: 3rem;
+}
+#skills {
+	padding-top: 12rem;
+	padding-bottom: 15rem;
 }
 
 .intro-info {
@@ -2170,6 +2189,10 @@ header .logo a {
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
+}
+.skills-icon {
+	font-size: 4.2rem;
+	color: #FFFFFF;
 }
 
 /* pagination */
